@@ -1,5 +1,14 @@
+html,
 body {
     margin: 0;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 header {
@@ -35,4 +44,21 @@ nav .signin {
     border-radius: 3px;
     font-size: 16px;
     text-decoration: none;
+}
+
+.pitch {
+    margin: 0 3%;
+    position: absolute;
+    margin: 35%;
+    font-size: 1.8vw;
+}
+
+.pitch_title {
+    font-size: 3em;
+    margin: 0 0 0.2em;
+    font-weight: 700;
+}
+
+.pitch_subtitle {
+    margin: 0 0 .5em;
 }
