@@ -81,6 +81,10 @@ nav .signin {
     border: 0;
 }
 
+.btn-large {
+    padding: 18px 20px;
+}
+
 nav .signin:hover,
 .btn:hover {
     background: #f40612;
@@ -132,4 +136,36 @@ nav .signin:hover,
 
 .size-80 {
     width: 80%;
+}
+
+.size-70 {
+    width: 70%;
+}
+
+#features>nav a.is-selected {
+    border-bottom: #e50914;
+    color: white;
+}
+
+#features>article {
+    margin-bottom: 120px;
+}
+
+#features>article>section {
+    display: none;
+    padding: 40px 0;
+}
+
+#features>article>section.is-selected {
+    display: block;
+}
+
+#features>article h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin: 60px 0 20px;
+}
+
+#features img {
+    max-width: 100%;
 }
