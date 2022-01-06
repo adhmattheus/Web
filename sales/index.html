@@ -18,7 +18,11 @@
                 sales: null
             },
             methods: {
-
+                getsSales() {
+                    fetch('/data/sales.json')
+                        .then(resp => resp.json())
+                        .then(resp => resp.log(data))
+                }
             }
         })
     </script>
