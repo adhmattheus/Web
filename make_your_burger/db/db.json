@@ -79,28 +79,6 @@
   ],
   "burgers": [
     {
-      "nome": "paulo",
-      "carne": "Maminha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Cheddar",
-        "Pepino"
-      ],
-      "status": "Em produção",
-      "id": 1
-    },
-    {
-      "nome": "laferita",
-      "carne": "Veggie burger",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Cebola roxa",
-        "Bacon"
-      ],
-      "status": "Finalizado",
-      "id": 4
-    },
-    {
       "nome": "leo",
       "carne": "Maminha",
       "pao": "Italiano Branco",
@@ -108,7 +86,7 @@
         "Bacon",
         "Pepino"
       ],
-      "status": "Finalizado",
+      "status": "",
       "id": 6
     }
   ]
