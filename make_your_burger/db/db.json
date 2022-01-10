@@ -82,7 +82,7 @@
       "nome": "paulo",
       "carne": "Maminha",
       "pao": "Italiano Branco",
-      "opicionais": [
+      "opcionais": [
         "Cheddar",
         "Pepino"
       ],
@@ -93,7 +93,7 @@
       "nome": "lafeool",
       "carne": "Veggie burger",
       "pao": "Parmesão e Orégano",
-      "opicionais": [
+      "opcionais": [
         "Bacon"
       ],
       "status": "Solicitado",
@@ -103,11 +103,22 @@
       "nome": "joao",
       "carne": "Picanha",
       "pao": "Parmesão e Orégano",
-      "opicionais": [
+      "opcionais": [
         "Bacon"
       ],
       "status": "Solicitado",
       "id": 3
+    },
+    {
+      "nome": "laferita",
+      "carne": "Veggie burger",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Cebola roxa",
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": 4
     }
   ]
 }
