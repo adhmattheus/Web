@@ -21,7 +21,6 @@ export default {
     align-items: center;
     justify-content: flex-start;
   }
-
   #main-banner h1{
     color: white;
     text-align: center;
@@ -29,5 +28,4 @@ export default {
     background-color: #222;
     padding:  20px 40px;
   }
-
 </style>

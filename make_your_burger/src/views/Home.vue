@@ -1,11 +1,10 @@
 <template>
-
   <Banner/>
-  <div class="main-container">
-    
+
+  <div class="main-container">    
     <h1>Monte o seu burguer:</h1>
-    <Burgerform/>
-    
+
+    <Burgerform/>    
   </div>
 </template>
 
@@ -19,6 +18,5 @@ export default {
     Banner,
     Burgerform
   }
-  
 }
 </script>

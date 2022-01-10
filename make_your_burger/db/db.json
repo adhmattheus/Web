@@ -79,15 +79,19 @@
   ],
   "burgers": [
     {
-      "nome": "leo",
-      "carne": "Maminha",
+      "nome": "pauliton",
+      "carne": "Alcatra",
       "pao": "Italiano Branco",
       "opcionais": [
         "Bacon",
-        "Pepino"
+        "Salame",
+        "Cheddar",
+        "Tomate",
+        "Pepino",
+        "Cebola roxa"
       ],
-      "status": "",
-      "id": 6
+      "status": "Finalizado",
+      "id": 7
     }
   ]
 }

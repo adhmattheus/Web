@@ -72,14 +72,14 @@ import Message from './Message.vue'
         const req = await fetch(`http://localhost:3000/burgers/${id}`, {
           method: "DELETE"
         });
-        const res = await req.json()
+        const res = await req.json();
         
         // colocar uma msg do sistema
         this.msg = `Pedido removido com sucesso!`;
         //limpar a msg
         setTimeout(()=>this.msg = "",3000);
 
-        this.getPedidos()
+        this.getPedidos();
       },
       async updateBurger(event, id) {
         const option = event.target.value;
@@ -95,12 +95,10 @@ import Message from './Message.vue'
         this.msg = `Pedido nº ${res.id} atualizado  para ${res.status}.`;
         //limpar a msg
         setTimeout(()=>this.msg = "",3000);
-        
-        console.log(res)
       }
     },
     mounted () {
-    this.getPedidos()
+    this.getPedidos();
     }
   }
 </script>
@@ -155,5 +153,5 @@ import Message from './Message.vue'
     background-color: transparent;
     color: #222;
   }
-  
+
 </style>

@@ -13,7 +13,6 @@ export default {
 }
 
 </script>
-
 <style scoped>
   .message-container{
     color: #004085;
