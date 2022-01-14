@@ -1,10 +1,26 @@
 <template>
-    <header class="header"></header>
+    <header class="header">
+        <a class="toogle">
+            <i class="fa fa-lg" :class="icon"></i>
+        </a>
+        <h1 class="title">
+            {{title}}
+        </h1>
+    </header>
 </template>
 
 <script>
 export default {
     name: 'Header',
+    props:{
+        title: String,
+        hideToggle: Boolean,
+    },
+    cumputed:{
+        icon() {
+            return "fa-angle-left"
+        }
+    }
 }
 </script>
 

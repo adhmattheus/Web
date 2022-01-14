@@ -1,6 +1,6 @@
 <template>
     <footer class="footer">
-        <span>Copyright <strong>lafera</strong> © 2022</span>
+        <span>Copyright <strong>curso web</strong> © 2022</span>
     </footer>
 </template>
 
