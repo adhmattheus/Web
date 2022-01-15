@@ -87,6 +87,18 @@ button > img, .button > img{
     color: var(--blue);
     border: .2rem solid var(--blue);
 }
+button.red,
+button.red{
+    background-color: var(--red);
+    color: var(--white);
+}
+
+button.grey,
+.button.grey{
+    background: var(--grey-light);
+    color: var(--grey-dark);
+}
+
 
 .content header{
     width: 80%;  
