@@ -2,11 +2,18 @@
   "name": "rocketproject",
   "version": "1.0.0",
   "description": "Projeto desenvolvido para gerenciar perguntas de usuários",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "nodemon . "
   },
   "keywords": [],
   "author": "Mattheus Adhonnay",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2"
+  }
 }
