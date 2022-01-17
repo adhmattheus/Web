@@ -16,7 +16,7 @@ export default {
         title: String,
         hideToggle: Boolean,
     },
-    cumputed:{
+    computed:{
         icon() {
             return "fa-angle-left"
         }
