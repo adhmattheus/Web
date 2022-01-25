@@ -1,6 +1,6 @@
 <template>
 	<div id="app" >
-		<Header title="Base de conhecimento"/>
+		<Header title="Base de Conhecimento" :hideToggle="false"/>
 		<Menu/>
 		<Content/>
 		<Footer/>
@@ -40,5 +40,5 @@ export default {
 			"header header"
 			"menu content"
 			"menu footer";
-	}
+	}	
 </style>
