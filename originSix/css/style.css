@@ -32,14 +32,14 @@ img {
 
 /*====  BASE ============================ */
 body {
-  font: 400 1rem 'DM Sans', sans-serif;
+  font: 400 1rem "DM Sans", sans-serif;
   color: var(--text-color);
   background: var(--body-color);
   -webkit-font-smoothing: antialiased;
 }
 
 h1 {
-  font: 700 1.875rem 'Poppins', sans-serif;
+  font: 700 1.875rem "Poppins", sans-serif;
   color: var(--title-color);
   -webkit-font-smoothing: auto;
 }
@@ -52,7 +52,7 @@ h1 {
   align-items: center;
   padding: 0 2rem;
   border-radius: 0.25rem;
-  font: 500 1rem 'DM Sans', sans-serif;
+  font: 500 1rem "DM Sans", sans-serif;
   transition: background 0.3s;
 }
 
@@ -106,7 +106,7 @@ nav {
 }
 
 .logo {
-  font: 700 1.31rem 'Poppins', sans-serif;
+  font: 700 1.31rem "Poppins", sans-serif;
   color: var(--title-color);
 }
 
@@ -132,7 +132,7 @@ main {
 }
 
 #home .image::before {
-  content: '';
+  content: "";
   height: 100%;
   width: 100%;
   background: var(--base-color-second);
