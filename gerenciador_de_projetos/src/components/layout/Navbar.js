@@ -5,7 +5,7 @@ import logo from '../../imgs/costs_logo.png'
 
 function Navbar() {
   return (
-    <nav class={styles.navbar}>
+    <nav className={styles.navbar}>
 
       <Container>
         <Link to="/">
