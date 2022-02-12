@@ -9,8 +9,15 @@ function Select({ text, name, options, handleOnChange, value }) {
 
       <select name={name} id={name}>
         <option>Selecione uma opção</option>
+
+        {options.map((option) => (
+          <option value={options.id} hey={options.id}>
+            {option.name}
+          </option>
+        ))}
+
       </select>
-      
+
     </div>
   )
 }
