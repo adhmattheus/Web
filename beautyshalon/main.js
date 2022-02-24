@@ -18,10 +18,10 @@ for (const link of links) {
 }
 
 /* mudar o header da página quando der scroll */
-const header = document.querySelector('#header')
-const navHeight = header.offsetHeight
-
 function changeHeaderWhenScroll() {
+  const header = document.querySelector('#header')
+  const navHeight = header.offsetHeight
+
   if (window.scrollY >= navHeight) {
     // scroll é maior que a altura do header
     header.classList.add('scroll')
@@ -38,13 +38,7 @@ const swiper = new Swiper('.swiper-container', {
     el: '.swiper-pagination'
   },
   mousewheel: true,
-  keyboard: true,
-  breakpoints: {
-    767: {
-      slidesPerView: 2,
-      setWrapperSize: true
-    }
-  }
+  keyboard: true
 })
 
 /* ScrollReveal: Mostrar elementos quando der scroll na página */
@@ -65,12 +59,20 @@ scrollReveal.reveal(
   `,
   { interval: 100 }
 )
-/*botao voltar para o topo*/
-const backToTopButton = document.querySelector('.back-to-top')
-window.addEventListener('scroll', function () {
+
+/* Botão voltar para o topo */
+function backToTop() {
+  const backToTopButton = document.querySelector('.back-to-top')
+
   if (window.scrollY >= 560) {
     backToTopButton.classList.add('show')
   } else {
     backToTopButton.classList.remove('show')
   }
+}
+
+/* When Scroll */
+window.addEventListener('scroll', function () {
+  changeHeaderWhenScroll()
+  backToTop()
 })
