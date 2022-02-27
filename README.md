@@ -3,7 +3,7 @@
 
 Este repositório é compilado de projetos de desenvolvimento web que faz parte dos meus estudos diários.
 
-## 🚀 Tecnologias Usadas
+## 🚀 Tecnologias Usadas.
 
 - HTML
 - CSS
