@@ -11,7 +11,6 @@ export function TransactionTable() {
   return (
     <Container>
       <table>
-
         <thead>
           <tr>
             <th>Título</th>
