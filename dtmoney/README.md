@@ -1,2 +1,2 @@
 ##Dtmoney
-projeto em construção!!
+projeto em construção
