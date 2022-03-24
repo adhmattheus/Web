@@ -3,7 +3,7 @@
 O DtMoney é uma aplicação de contrle financeiro simples, onde o usuário pode cadastrar e visualizar suas entradase saídas, além do saldo total final.
 
 <p align="center">
-  <img alt="detmoney capa" src="./assets/1.PNG" width="100%">
+  <img alt="detmoney capa" src="src/assets/1.PNG" width="100%">
 </p>
 
 ## 🚀 Tecnologias
