@@ -25,4 +25,4 @@ Copie o repositório para a pasta desejada com o comando: https://github.com/adh
 
 Instale as dependências com o comando: yarn
 
-Execute em localhost: yarn start
+Execute em localhost: yarn start.
