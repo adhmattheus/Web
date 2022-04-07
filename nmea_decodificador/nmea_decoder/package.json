@@ -1,0 +1,27 @@
+{
+  "name": "nmea-parser",
+  "version": "1.0.0",
+  "description": "Parses NMEA sentences.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js -f nmeaGps.txt"
+  },
+  "author": "David J Barnes",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "node-nmea": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://davidjbarnes@bitbucket.org/davidjbarnes/nmea-decoder-parser-for-javascript-nodejs.git"
+  },
+  "keywords": [
+    "NMEA",
+    "GPS",
+    "GPX"
+  ]
+}
