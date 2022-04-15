@@ -20,4 +20,4 @@ Instale as dependências em cada uma das pastas, com o comando: yarn
 
 Execute a primeira pasta com o comando: node index.js -f nmeaGps.txt
 
-Execute a segunda pasta em localhost: yarn start
+Execute a segunda pasta em localhost: yarn start.
