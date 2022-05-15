@@ -1,5 +1,5 @@
 import styled from 'styled-components';
 
-export const Teste = styled.h1`
-  color: red;
+export const Container = styled.header`
+background: #0CB1D6
 `;
