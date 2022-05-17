@@ -16,10 +16,7 @@ export const Agenda = styled.div`
 `;
 
 export const Calendario = styled.div`
-  width: 380px;
-  background-color: red;
-  width: 50%;
-  height: 50;
+  width: 330px;
 `;
 
 export const ContentBotao = styled.div`

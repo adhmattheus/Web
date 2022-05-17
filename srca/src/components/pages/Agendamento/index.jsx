@@ -1,4 +1,7 @@
 import Select from 'react-select'
+import { DayPicker } from 'react-day-picker';
+import 'react-day-picker/dist/style.css';
+
 import { Container, Agenda, Calendario, ContentBotao } from './styles'
 
 const atendimento = [
@@ -44,7 +47,7 @@ export function Agendamento() {
         </Agenda>
 
         <Calendario>
-
+          <DayPicker/>
         </Calendario>
 
       </Container>
