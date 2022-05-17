@@ -1,10 +1,28 @@
+import { Container, HeaderPrincipal, HeaderContent, Profile } from './styles'
 import logoImg from '../../assets/imgs/logo.png';
-import { Container } from './styles'
+import { FiPower } from 'react-icons/fi';
 
 export function Header() {
   return (
     <Container>
-      <img src={logoImg} alt="logo" />
+      <HeaderPrincipal>
+        <HeaderContent>
+          <img src={logoImg} alt="srca" />
+          <Profile>
+            <img src="https://avatars.githubusercontent.com/u/30497608?v=4"
+              alt="Mattheus"
+            />
+            <div>
+              <span>Bem-vindo</span>
+              <strong>Mattheus Adhonnay</strong>
+            </div>
+          </Profile>
+          <button type="button">
+            <FiPower />
+          </button>
+
+        </HeaderContent>
+      </HeaderPrincipal>
     </Container>
   );
 }
