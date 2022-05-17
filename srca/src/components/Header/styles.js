@@ -16,7 +16,7 @@ export const HeaderContent = styled.div`
 
   > img{
   width: 20%;
-padding-left: 10px;
+  padding-left: 10px;
 
   }
     button{
