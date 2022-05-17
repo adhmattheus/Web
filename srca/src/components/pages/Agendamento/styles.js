@@ -23,7 +23,14 @@ export const ContentBotao = styled.div`
 
 border: 1px solid black;
 max-width: 1120px;
+
 margin: auto;
 display: flex;
 justify-content: center;
+align-items: space-between;
+
+> button{
+  margin-right: 20px; 
+}
+
 `;

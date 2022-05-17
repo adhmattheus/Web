@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  
+
 `;
 
 export const HeaderPrincipal = styled.header`
@@ -12,7 +12,8 @@ export const HeaderContent = styled.div`
   max-width: 1120;
   margin: 0 auto;
   display: flex;
-  align-items: left;
+  /* align-items: left; */
+  justify-content: space-between;
 
   > img{
   width: 20%;
@@ -48,4 +49,10 @@ export const Profile = styled.div`
     margin-left: 16px;
     line-height: 24px;
   }
+`;
+
+export const ContentProfile = styled.div`
+  display: flex;
+  justify-content: space-between;
+  
 `;

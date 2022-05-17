@@ -1,4 +1,4 @@
-import { Container, HeaderPrincipal, HeaderContent, Profile } from './styles'
+import { Container, HeaderPrincipal, HeaderContent, Profile,ContentProfile } from './styles'
 import logoImg from '../../assets/imgs/logo.png';
 import { FiPower } from 'react-icons/fi';
 
@@ -6,8 +6,11 @@ export function Header() {
   return (
     <Container>
       <HeaderPrincipal>
+        
         <HeaderContent>
           <img src={logoImg} alt="srca" />
+
+          <ContentProfile>
           <Profile>
             <img src="https://avatars.githubusercontent.com/u/30497608?v=4"
               alt="Mattheus"
@@ -20,6 +23,7 @@ export function Header() {
           <button type="button">
             <FiPower />
           </button>
+          </ContentProfile>
 
         </HeaderContent>
       </HeaderPrincipal>
