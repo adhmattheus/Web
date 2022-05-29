@@ -15,7 +15,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - TypeScript
 - Axios
 - MirageJS
-- Polished
+- Polished.
 
 ## Executando o projeto
 
