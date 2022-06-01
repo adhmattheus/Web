@@ -1,7 +1,7 @@
 # calculator
 
 ## Project setup
-```
+``
 npm install
 ```
 
