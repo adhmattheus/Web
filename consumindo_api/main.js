@@ -4,6 +4,11 @@ const newUser = {
   avatar: "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_wolverine_logan_xman_marvel-512.png",
   city: "Cabrobó"
 }
+const UpdateUser = {
+  name: "Laferovisk Kadshin",
+  avatar: "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_wolverine_logan_xman_marvel-512.png",
+  city: "Recife"
+}
 
 function getUser() {
   axios.get(url)
@@ -22,4 +27,13 @@ function addNewUser() {
     })
     .catch(error => console.log(error))
 }
-addNewUser();
+// addNewUser();
+
+function updateUser() {
+  axios.put(`${url}/3`, UpdateUser)
+    .then(response => {
+      alert(JSON.stringify(response.data))
+    })
+    .catch(error => console.log(error))
+}
+updateUser();
