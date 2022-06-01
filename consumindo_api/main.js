@@ -55,5 +55,4 @@ function getOnseUser() {
     })
     .catch(error => console.log(error))
 }
-
 getOnseUser();
