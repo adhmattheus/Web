@@ -7,7 +7,7 @@ const newUser = {
 const UpdateUser = {
   name: "Laferovisk Kadshin",
   avatar: "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_wolverine_logan_xman_marvel-512.png",
-  city: "Recife"
+  city: "Recife - PE"
 }
 
 function getUser() {
